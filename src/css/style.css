@@ -44,6 +44,7 @@
   /* home */
   .coming-soon {
     height: 100vh;
+    padding: 10px;
   }
   .coming-soon h1 {
     font-size: 3rem;
