@@ -1,0 +1,41 @@
+.coming-soon {
+  background: rgb(3, 3, 181);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.coming-soon h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.coming-soon p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-item {
+  margin: 0 1rem;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown-label {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
