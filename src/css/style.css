@@ -39,3 +39,14 @@
   font-size: 1rem;
   margin-top: 0.5rem;
 }
+
+@media only screen and (max-width: 767px) {
+  /* home */
+  .coming-soon {
+    height: 100vh;
+  }
+  .coming-soon h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
