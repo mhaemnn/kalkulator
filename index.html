@@ -8,29 +8,14 @@
     <title>kalkulator</title>
   </head>
   <body>
-    <div class="coming-soon">
-      <h1>COMING SOON</h1>
-      <p>Our website is under construction. Stay tuned for updates!</p>
-      <div class="countdown">
-        <div class="countdown-item">
-          <span id="days"></span>
-          <div class="countdown-label">Days</div>
-        </div>
-        <div class="countdown-item">
-          <span id="hours"></span>
-          <div class="countdown-label">Hours</div>
-        </div>
-        <div class="countdown-item">
-          <span id="minutes"></span>
-          <div class="countdown-label">Minutes</div>
-        </div>
-        <div class="countdown-item">
-          <span id="seconds"></span>
-          <div class="countdown-label">Seconds</div>
-        </div>
-      </div>
+    <div id="calculator">
+      <input type="text" id="display" disabled />
+      <br />
+      <button id="ac" class="operator">AC</button>
+      <button id="de" class="operator">DE</button>
+      <button id="." class="operator">.</button>
+      <button id="/" class="operator">/</button>
     </div>
-
     <script src="src/js/sctipt.js"></script>
   </body>
 </html>
